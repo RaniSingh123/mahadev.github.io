@@ -1,0 +1,123 @@
+body
+{
+background-image:url(img/li1.jpeg);
+background-size:cover;
+background-position:center;
+}
+#outer
+{
+height:900px;
+margin:0px auto;
+width:1098px;
+//border:1px solid;
+margin-top:50px;
+}
+#header
+{
+height:150px;
+	width:1098px;
+	//border:1px solid;
+	background-color:#c88080a1;
+	
+}
+#logo
+{
+	height:70px;
+	//margin-top:500px;
+	width:1096px;
+	//border:1px solid;
+	margin-top:40px;
+	
+
+}
+#nav{
+	height:50px;
+	width:1096px;
+	border:1px solid #f44566;
+background-color:#f44566;
+border-radius:20px 20px 0px 0px;
+
+}
+
+
+	#nav ul li
+	{
+		display:inline;
+	    //border:1px solid;
+		list-style-type:none;
+		padding:16px;
+		//margin-top:28px;
+		margin-left:-2px;
+		//font-family:rockwell;
+		border-radius:3px;
+		background-color:white;
+		color:black;
+		
+	
+		
+	}
+    a
+	{
+			text-decoration:none;
+	}
+	
+	#nav ul li:hover{
+		background-color:crimson;
+		color:white;
+		transition:1.5s;
+	}
+#main
+{
+   height:598px;
+	width:1098px;
+	//border:1px solid;
+	background-color:white;
+			
+	
+}
+.section
+{
+	height:596px;
+	width:350px;
+	//border:1px solid;
+
+	margin-left:10px;
+	float:left;
+}
+	.top{
+		height:80px;
+		//border:1px solid;
+		width:300px;
+		margin-left:50px;
+		color:crimson;
+		
+	}
+	.btn
+	{
+		height:200px;
+		width:300px;
+		//border:1px solid;
+		margin-top:20px;
+		margin-left:50px;
+	}
+	#img
+	{
+		height:200px;
+		width:300px;
+		margin-left:40px;
+		background-image:url(img/wed.jpg);
+	background-size:cover;
+background-position:center;
+box-shadow:2px 4px 6px 4px dimgray;
+	}
+	
+	#footer
+{
+	height:98px;
+	width:1098px;
+	//border:1px solid;
+	color:white;
+	background-color:#d85050a1;
+	
+	
+}

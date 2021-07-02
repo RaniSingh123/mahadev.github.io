@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+	<head>
+		<script>
+			var images=['img/w1.jpg',"blue","red","orange","crimson","yellow","gray","dimgray"];
+			var index=0;
+			function setimage()
+			{
+			var d=document.getElementById("box");
+			d.src=images[index];
+			document.getElementById("text").innerText=images[index];
+		    index++;
+		    if(images.length==index)
+			{
+			 index=0;
+			}
+			window.setTimeout("setcolor()",500);
+			
+          	
+			}
+			
+			
+		</script>
+	</head>
+	<body onload="setimage()">
+		<div id="box" style="height:500px;width:800px;border:1px solid;"></div>
+		<div id="text" style="height:500px;width:800px;border:1px solid;" ></div>
+	</body>
+</html>
